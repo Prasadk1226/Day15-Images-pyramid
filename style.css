@@ -1,0 +1,99 @@
+.container{
+    min-width: 600px;
+    min-height: 500px;
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+}
+
+img{
+    height: 100px;
+}
+.row1{
+    display: inline-block;
+    border: 2px solid maroon;
+    position: fixed;
+    margin-left: 42vw;
+    padding: 10px;
+    background-image: linear-gradient(to top left, cyan,magenta,yellow);
+    min-width: 100px;
+
+}
+.row2{
+    display: inline-block;
+    border: 2px solid greenyellow;
+    position: sticky;
+    top: 1.1%;
+    margin-left: 38.5vw;
+    margin-top: 19vh;
+    padding: 10px;
+    background-image: linear-gradient(to bottom left, cyan,magenta,yellow);
+    z-index: 2;
+    min-width: 200px;
+}
+.row3{
+    
+    border: 2px solid magenta;
+    position: absolute;
+    /* bottom: 53%; */
+    margin-left: 35vw;
+    margin-top: 2vh;
+    padding: 10px;
+    background-image: linear-gradient(to bottom left, cyan,magenta,yellow);
+    min-width: 300px;
+}
+.row4{
+    display: inline-block;
+    border: 2px solid yellowgreen;
+    position: relative;
+    /* top: 0%; */
+    margin-left: 32vw;
+    margin-top: 21.5vh;
+    padding: 10px;
+    background-image: linear-gradient(to bottom left, cyan,magenta,yellow);
+    min-width: 400px;
+
+}
+.fi{
+    position: fixed;
+    top: 4vh;
+    left: 20vw;
+    z-index: 1;
+    border: 3px solid greenyellow;
+    font-size: 29px;
+    background-color: aqua;
+}
+.sti{
+    position: sticky;
+    bottom: 86.7vh;
+    left: 20vw;
+    /* top: 4vh; */
+    z-index: 2;
+    border: 3px solid greenyellow;
+    font-size: 29px;
+    display: inline;
+    background-color: rgb(9, 255, 0);
+    
+}
+.ab{
+    position: absolute;
+    bottom: 45vh;
+    left: 20vw;
+    /* top: 4vh; */
+    z-index: 3;
+    border: 3px solid greenyellow;
+    font-size: 29px;
+    display: inline;
+    background-color: rgb(9, 255, 0);
+}
+.re{
+    position: absolute;
+    bottom: 25vh;
+    left: 20vw;
+    /* top: 4vh; */
+    z-index: 3;
+    border: 3px solid greenyellow;
+    font-size: 29px;
+    display: inline;
+    background-color: rgb(9, 255, 0);
+}
